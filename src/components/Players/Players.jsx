@@ -6,7 +6,7 @@ const Players = ({handleVisited, visited, handleSelectPlayer, handleRemovePlayer
     const [players, setplayers] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch('/BPL-Dream-XI/players.json');
+            const response = await fetch(`${import.meta.env.BASE_URL}players.json`);
             const data = await response.json();
             setplayers(data);
         };
