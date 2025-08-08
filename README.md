@@ -15,9 +15,7 @@ Live demo: https://sf61561.github.io/BPL-Dream-XI/
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
 - [How it works (brief)](#how-it-works-brief)  
-- [Development notes](#development-notes)  
-- [Contributing](#contributing)  
-- [License](#license)
+- [Development notes](#development-notes)
 
 ---
 
