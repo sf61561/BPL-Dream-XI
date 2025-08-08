@@ -62,3 +62,14 @@ npm install
 
 # 3. Start dev server
 npm run dev
+
+```
+
+---
+
+## Usage
+
+- Open the app in the browser (typically http://localhost:5173 when running Vite).
+- Browse players, click the Add/Buy button to add a player to your team (coins will be deducted).
+- Remove a player from the selected list to refund coins.
+- Toasts will show validation messages (e.g., “Not enough coins”, “Player already selected”, or success messages).
