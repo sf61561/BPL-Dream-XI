@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar.jsx'
 import Claim_card from './components/Claim-card/Claim_card.jsx'
 import Players from './components/Players/Players.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import { ToastContainer,toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -25,11 +27,11 @@ function App() {
     const handleSelectPlayer = (player) => {
         let claimedCoin = document.getElementById("claimed_coin");
         if(selected.length === 6){
-            alert("You can select only 6 players");
+            toast.warn("You can select only 6 players");
             return;
         }
         if(claimedCoin.innerText < player.price){
-            alert("You don't have enough coins to select this player");
+            toast.warn("You don't have enough coins to select this player");
             return;
         }
         if(selected.find(p => (p.id === player.id))){ 
@@ -54,6 +56,7 @@ function App() {
       <Claim_card claim={claim} visited={visited} />
       <Players handleVisited={handleVisited} visited={visited} handleSelectPlayer={handleSelectPlayer} handleRemovePlayer={handleRemovePlayer} selected={selected}  addMorePlayer={addMorePlayer}/>
       <Footer></Footer>
+      <ToastContainer autoClose={2000}/>
     </div>
   );
 }
