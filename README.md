@@ -73,3 +73,51 @@ npm run dev
 - Browse players, click the Add/Buy button to add a player to your team (coins will be deducted).
 - Remove a player from the selected list to refund coins.
 - Toasts will show validation messages (e.g., “Not enough coins”, “Player already selected”, or success messages).
+
+---
+
+## Project Structure
+
+```bash
+BPL-Dream-XI/
+├─ public/
+│  ├─ players.json      # sample player data used by the app
+│  └─ vite.svg
+├─ src/
+│  ├─ assets/
+│  │  ├─ images/
+│  │  │  ├─ banner-main.png
+│  │  │  ├─ bg-shadow.png
+│  │  │  ├─ logo-footer.png
+│  │  │  └─ logo.png
+│  │  └─ react.svg
+│  ├─ components/
+│  │  ├─ Claim-card/
+│  │  │  ├─ Claim_card.css
+│  │  │  ├─ Claim_card.jsx
+│  │  ├─ Footer/
+│  │  │  ├─ Footer.css
+│  │  │  ├─ Footer.jsx
+│  │  ├─ Navbar/
+│  │  │  ├─ Navbar.css
+│  │  │  ├─ Navbar.jsx
+│  │  ├─ Player/
+│  │  │  ├─ Player.jsx
+│  │  ├─ Players/
+│  │  │  ├─ Players.jsx
+│  │  ├─ Selected/
+│  │  │  ├─ SelectedList.jsx
+│  │  ├─ newsletter/
+│  │  │  └─ Newsletter.jsx
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .gitignore
+├─ README.md
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+└─ vite.config.js
+```
