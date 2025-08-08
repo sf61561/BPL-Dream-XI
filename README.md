@@ -121,7 +121,7 @@ BPL-Dream-XI/
 ```
 ---
 
-## How it works
+## How it works (brief)
 
 1. Load player data from a static JSON endpoint (e.g., public/players.json) or inline file.
 2. State management: Selected players and coin balance are stored in React state (and optionally mirrored to localStorage).
