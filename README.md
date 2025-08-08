@@ -44,7 +44,7 @@ BPL-Dream-XI is a frontend React application that simulates selecting a cricket 
 - **Tailwind CSS** (plus DaisyUI utilities)  
 - **React-Toastify** (notifications)  
 - **Local JSON / `public` folder** for player data  
-- **LocalStorage** for persisting small items (e.g., newsletter or user preferences) :contentReference[oaicite:2]{index=2}
+- **LocalStorage** for persisting small items (e.g., newsletter or user preferences)
 
 ---
 
