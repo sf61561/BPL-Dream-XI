@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.5,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm medium",
+    "price": 2500000,
+    "image": "https://shorturl.at/kz8Ss"
+  },
+  {
+    "id": 2,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.2,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm leg spin",
+    "price": 2200000,
+    "image": "https://shorturl.at/xSHQY"
+  },
+  {
+    "id": 3,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 9.0,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm off spin",
+    "price": 2100000,
+    "image": "https://shorturl.at/RR2f2"
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "rating": 9.3,
+    "batting_style": "Left-handed Batsman",
+    "bowling_style": "Right-arm fast medium",
+    "price": 2800000,
+    "image": "https://shorturl.at/5Hthd"
+  },
+  {
+    "id": 5,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 9.1,
+    "batting_style": "Left-handed Batsman",
+    "bowling_style": "Left-arm orthodox spin",
+    "price": 1500000,
+    "image": "https://shorturl.at/i1Ztm"
+  },
+  {
+    "id": 6,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "All-rounder",
+    "rating": 8.9,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm leg spin",
+    "price": 1800000,
+    "image": "https://i.ibb.co.com/LDWmHmH8/images.webp"
+  },
+  {
+    "id": 7,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": 8.7,
+    "batting_style": "Left-handed Batsman",
+    "bowling_style": "Left-arm fast",
+    "price": 3000000,
+    "image": "https://i.ibb.co.com/n8MNnKds/Mitchell-Starc.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 9.0,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm fast",
+    "price": 2800000,
+    "image": "https://i.ibb.co.com/wNCfdZnd/Jasprit-Bumrah.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "All-rounder",
+    "rating": 9.0,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm fast",
+    "price": 3200000,
+    "image": "https://i.ibb.co.com/7tKDxc11/Pat-Cummins.png"
+  },
+  {
+    "id": 10,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Batsman",
+    "rating": 8.8,
+    "batting_style": "Left-handed Batsman",
+    "bowling_style": "Wicketkeeper (No bowling)",
+    "price": 1700000,
+    "image": "https://i.ibb.co.com/mF0nFJr8/Quinton-de-Kock.png"
+  },
+  {
+    "id": 11,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.1,
+    "batting_style": "Left-handed Batsman",
+    "bowling_style": "Right-arm leg spin",
+    "price": 2300000,
+    "image": "https://i.ibb.co.com/GQHPjPdb/David-Warner.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.0,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm off spin",
+    "price": 2400000,
+    "image": "https://i.ibb.co.com/hxZV4KQR/Rohit-Sharma.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "rating": 8.7,
+    "batting_style": "Right-handed Batsman",
+    "bowling_style": "Right-arm fast medium",
+    "price": 2000000,
+    "image": "https://i.ibb.co.com/GfX33ZP0/Hardik-Pandya.jpg"
+  }
+]
