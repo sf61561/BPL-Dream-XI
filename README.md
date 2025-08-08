@@ -121,3 +121,27 @@ BPL-Dream-XI/
 ├─ package.json
 └─ vite.config.js
 ```
+---
+
+## How it works
+
+1. Load player data from a static JSON endpoint (e.g., public/players.json) or inline file.
+2. State management: Selected players and coin balance are stored in React state (and optionally mirrored to localStorage).
+3. Selection rules: App checks the coin balance, the maximum number of players, and duplicates before allowing a player to be added.
+4. Notifications: React-Toastify displays messages for user feedback.
+---
+## Development notes
+
+- Keep UI components small and reusable (e.g., PlayerCard, Button, Modal).
+- Validate user actions centrally (e.g., selection functions in a single helper or context) to avoid duplicated logic.
+- To add more players, update public/players.json (or your data source).
+- If you plan to deploy to GitHub Pages, ensure homepage in package.json is set and configure the build to publish the dist folder.
+---
+
+Would you like me to:
+
+- Put this `README.md` into a file and give you a download link?  
+- Add badges (build, license, live demo) at the top?  
+- Insert screenshots & example GIFs of the app (I can generate placeholders or show how to capture them)?  
+
+Tell me which and I’ll produce the next step.
