@@ -23,7 +23,7 @@ Live demo: https://sf61561.github.io/BPL-Dream-XI/
 
 ## Project Overview
 
-BPL-Dream-XI is a frontend React application that simulates selecting a cricket team under a limited coin budget. It follows a simple Figma-like design, supports responsive layouts, notifies the user of actions via toasts, and persists some small data in `localStorage`. :contentReference[oaicite:0]{index=0}
+BPL-Dream-XI is a frontend React application that simulates selecting a cricket team under a limited coin budget. It follows a simple Figma-like design, supports responsive layouts, notifies the user of actions via toasts, and persists some small data in `localStorage`.
 
 ---
 
@@ -34,7 +34,7 @@ BPL-Dream-XI is a frontend React application that simulates selecting a cricket 
 - Maximum player limit (e.g., 6 players) and selection validation.  
 - Toast notifications for success/error states (using React-Toastify).  
 - Responsive UI built with Tailwind CSS and DaisyUI-like components.  
-- Uses local JSON or a static `public` data file to store player info; some small data persisted to `localStorage`. :contentReference[oaicite:1]{index=1}
+- Uses local JSON or a static `public` data file to store player info; some small data persisted to `localStorage`.
 
 ---
 
