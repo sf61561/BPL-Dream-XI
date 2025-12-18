@@ -44,7 +44,7 @@ function App() {
     }
     
     const handleRemovePlayer = (player) => {
-        setSelected(selected.filter(p => p.id !== player.id));
+      setSelected(selected.filter(p => p.id !== player.id));
     }
 
     const addMorePlayer= () => {

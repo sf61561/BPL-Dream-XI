@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import Player from '../Player/PLayer.jsx';
+import Player from '../Player/Player.jsx';
 import Selected from '../Selected/Selected.jsx';
 
 const Players = ({handleVisited, visited, handleSelectPlayer, handleRemovePlayer,selected,addMorePlayer}) => {
